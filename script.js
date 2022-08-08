@@ -182,89 +182,89 @@
 
 // for(let i =0; i<grades.length; i++){
     
-    // let values = grades[i];
-    //     let value2 = eval(grades.join('+'))/grades.length;
-    //     console.log(value2);
-    // // }
+//     let values = grades[i];
+//         let value2 = eval(grades.join('+'))/grades.length;
+//         console.log(value2);
+//     // }
     
-    // function evenOdd(num){
+//     function evenOdd(num){
         
-        //     for(let i =0; i<=num; i++){
-            //         if (i%2==0){
-                //             console.log(i);;
-                //         }
-                //     }
-                // }
+//             for(let i =0; i<=num; i++){
+//                     if (i%2==0){
+//                             console.log(i);;
+//                         }
+//                     }
+//                 }
                 
-                // evenOdd(10)
+//                 evenOdd(10)
 
 
-    // const grades = [80, 77, 88, 95, 68];
-    // const oddNumber = []
+//     const grades = [80, 77, 88, 95, 68];
+//     const oddNumber = []
 
-    // function myNumbers(number){
-    //     for(let i =0; i<number.length;i++){
-    //         let index = i;
-    //         let elements = number[index];
-    //         if(elements%2==0){
-    //             console.log(index, elements);
+//     function myNumbers(number){
+//         for(let i =0; i<number.length;i++){
+//             let index = i;
+//             let elements = number[index];
+//             if(elements%2==0){
+//                 console.log(index, elements);
 
-    //         }
-    //         else{
-    //             console.log("Number Didn't Find");
-    //         }   
+//             }
+//             else{
+//                 console.log("Number Didn't Find");
+//             }   
             
-    //     let adding = oddNumber.push(elements);
-    //     console.log(adding);
-    //     }
+//         let adding = oddNumber.push(elements);
+//         console.log(adding);
+//         }
 
-    // }
+//     }
 
-    // myNumbers(grades);
+//     myNumbers(grades);
 
-    // function cToF(celsius) 
-    // {
-    //   var cTemp = celsius;
-    //   var cToFahr = cTemp * 9 / 5 + 32;
-    //   var message = cTemp+'\xB0C is ' + cToFahr + ' \xB0F.';
-    //     console.log(message);
-    // }
+//     function cToF(celsius) 
+//     {
+//       var cTemp = celsius;
+//       var cToFahr = cTemp * 9 / 5 + 32;
+//       var message = cTemp+'\xB0C is ' + cToFahr + ' \xB0F.';
+//         console.log(message);
+//     }
     
-    // function fToC(fahrenheit) 
-    // {
-    //   var fTemp = fahrenheit;
-    //   var fToCel = (fTemp - 32) * 5 / 9;
-    //   var message = fTemp+'\xB0F is ' + fToCel + '\xB0C.';
-    //     console.log(message);
-    // } 
-    // cToF(60);
-    // fToC(45);
+//     function fToC(fahrenheit) 
+//     {
+//       var fTemp = fahrenheit;
+//       var fToCel = (fTemp - 32) * 5 / 9;
+//       var message = fTemp+'\xB0F is ' + fToCel + '\xB0C.';
+//         console.log(message);
+//     } 
+//     cToF(60);
+//     fToC(45);
 
-    // function Fhight(fahrenheit){
-    //     let cTemp = fahrenheit;
-    //     let cToFahr = cTemp * 9/ 5+32;
-    //     console.log(cToFahr);
-    // }
+//     function Fhight(fahrenheit){
+//         let cTemp = fahrenheit;
+//         let cToFahr = cTemp * 9/ 5+32;
+//         console.log(cToFahr);
+//     }
 
-    // Fhight(60);
+//     Fhight(60);
 
-    const person ={
-        name:"Tawshif",
-        lname:"Shaharier",
-        age:20,
-    }
-
-
-    // for(let x in person){
-    //     console.log(person[x]);
-    // }
+//     const person ={
+//         name:"Tawshif",
+//         lname:"Shaharier",
+//         age:20,
+//     }
 
 
-    const grades = [80, 77, 88, 95, 68, 80];
+//     for(let x in person){
+//         console.log(person[x]);
+//     }
 
-    // for(let x of grades){
-    //     console.log(x);
-    // }
+
+//     const grades = [80, 77, 88, 95, 68, 80];
+
+//     for(let x of grades){
+//         console.log(x);
+//     }
 
 
 // let i = 0;
@@ -307,36 +307,72 @@
 // isLeapYear(2028)
 
 
-let vowels = ["a", "e","i", "o", "u", "A", "E", "I", "O", "U"];
+// let vowels = ["a", "e","i", "o", "u", "A", "E", "I", "O", "U"];
 
 
-function countVowels(sentence){
-    let count = 0;
-    let letters = Array.from(sentence);
+// function countVowels(sentence){
+//     let count = 0;
+//     let letters = Array.from(sentence);
 
-    letters.forEach(function(value){
-        if(vowels.includes(value)){
-            count++;
-        }
-    })
+//     letters.forEach(function(value){
+//         if(vowels.includes(value)){
+//             count++;
+//         }
+//     })
 
-    return count;
-}
-console.log(countVowels("I love Bangladesh"));
+//     return count;
+// }
+// console.log(countVowels("I love Bangladesh"));
 
 
-let numbers = [2, 5, 6, 8, 2, 3, 5, 6, 8];
+// let numbers = [2, 5, 6, 8, 2, 3, 5, 6, 8];
 
-let duplicateValues = numbers.filter(function(value, index, array){
-    return array.indexOf(value)!==index;   
-})
+// let duplicateValues = numbers.filter(function(value, index, array){
+//     return array.indexOf(value)!==index;   
+// })
 
-console.log(duplicateValues);
+// console.log(duplicateValues);
 
-let text = "I love Bangladesh We Hate Bangladesh";
+// let text = "I love Bangladesh We Hate Bangladesh";
 
-// let src = text.search(/bangladesh/i);
-let rep = text.replace(/Bangladesh/ig, "India")
+// // let src = text.search(/bangladesh/i);
+// let rep = text.replace(/Bangladesh/ig, "India")
 
-// console.log(src);
-console.log(rep);
+// // console.log(src);
+// console.log(rep);
+
+
+// let text = '{ "employees" : [' +
+// '{ "firstName":"John" , "lastName":"Doe" },' +
+// '{ "firstName":"Anna" , "lastName":"Smith" },' +
+// '{ "firstName":"Peter" , "lastName":"Jones" } ]}';
+
+// const obj = JSON.parse(text);
+
+// console.log(obj.employees[2].firstName);
+
+
+
+// function FIzzBuzz(numbers){
+
+//     for(let i =0;i<=numbers;i++){
+
+//         if(i%15===0){
+//             console.log(`The ${i} is FizzBuzz`);
+//         }
+//         if(i%3===0){
+//             console.log(`The ${i} is Fizz`);
+//         }
+
+//         else if(i%5===0){
+//             console.log(`The ${i} is Buzz`);
+//         }
+//         else{
+//             console.log("The number is not FizzBuzz..!:(");
+//     }
+
+
+//     }
+// }
+
+// FIzzBuzz(100)
