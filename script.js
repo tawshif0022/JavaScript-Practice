@@ -376,3 +376,42 @@
 // }
 
 // FIzzBuzz(100)
+
+
+// const myObj = {
+//     name: "John",
+//     age: 30,
+//     cars: [
+//       {name:"Ford", models:["Fiesta", "Focus", "Mustang"]},
+//       {name:"BMW", models:["320", "X3", "X5"]},
+//       {name:"Fiat", models:["500", "Panda"]}
+//     ]
+//   }
+
+
+//   for(let i in myObj.cars){
+//     console.log(myObj.cars[i].models[0]);
+//   }
+
+// let vowels = ["a", "e","i","o","u","A", "E","I","O", "U"];
+
+// function getVowels(sentence){
+//   let count =0;
+//   let letters = Array.from(sentence);
+//   letters.forEach(function(value){
+//     if(vowels.includes(value)){
+//       count++;
+//     }
+//   })
+//   return count;
+// }
+
+// console.log(getVowels("My Name is Mohammad Toha"));
+
+
+
+// let vowels = ["a", "e","i","o","u","A", "E","I","O", "U"];
+
+// for(let x of vowels){
+//   console.log(x);
+// }
